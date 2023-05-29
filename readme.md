@@ -1,3 +1,3 @@
-#Globe 3D with Datamaps
+# 3D Globe with Datamaps
 
-[GitHub-Pages]()
+### visit: [GitHub-Pages](https://odysseyofcoding.github.io/DataMaps3DPublic/)

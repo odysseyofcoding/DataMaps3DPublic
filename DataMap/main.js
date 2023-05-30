@@ -41,7 +41,7 @@ function InitNewDatamap(elementID) {
     setProjection: function (element) {
       const width = element.offsetWidth;
       const height = element.offsetHeight;
-      const scale = Math.min(window.innerWidth, window.innerHeight) / 3;
+      const scale = Math.min(window.innerWidth, window.innerHeight) / 4;
       const projection = d3.geo
         .orthographic()
         .scale(scale)

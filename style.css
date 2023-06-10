@@ -1,11 +1,21 @@
-.hoverinfo {
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+/*#region datamap info display*/
+/*Modify datamap popop appearance*/
+html body div#test-map div.datamaps-hoverover div.hoverinfo {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
   min-width: 75px;
 }
-
-.hoverinfo-item {
-  border: inherit;
+/*Modify textbox inside datamap popup*/
+html body div#test-map div.datamaps-hoverover div.hoverinfo div {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+/*Modify popup info text*/
+html body div#test-map div.datamaps-hoverover div.hoverinfo div span {
+  color: black;
+}
+/*#endregion region datamap info display*/
